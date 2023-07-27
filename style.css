@@ -529,87 +529,75 @@ p{
 
 /* Skills Section */
 
-#skills .skills{
-    flex-direction: column;
-    text-align: center;
-    max-width: 1500px;
-    margin: 0 auto;
-    padding-bottom: 100px;
-}
 
 
-#skills .skills-top{
+#myskills .myskills-top{
     max-width: 500px;
     margin: 0 auto;
+    text-align: center;
 }
 
 
-#skills .skills-bottom{
+
+
+
+#skills {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
-    margin-top: 50px;
-}
-
-
-#skills .skills-items{
-    flex-basis: 80%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 30px;
-    border-radius: 10px;
-    background-image: url(./images/img-1.png);
-    background-size: cover;
-    margin: 10px 5%;
-    position: relative;
-    z-index: 1;
-    overflow: hidden;
-    transition: 0.3s ease transform;
-}
-
-
-#skills .skills-items::after{
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
-    opacity: 0.9;
-    z-index: -1;
     
 }
 
 
-#skills .skills-bottom .icon{
-    height: 80px;
-    width: 80px;
-    margin-bottom: 20px;
-}
 
-
-#skills .skills-items h1{
-    font-size: 2rem;
-    color: white;
-    margin-bottom: 10px;
-    text-transform: uppercase;
-}
-
-
-#skills .skills-items p{
-    color: white;
+#skills .fe-box {
+    width: 180px;
     text-align: center;
-    padding: 0;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px 0;
+
+}
+
+#skills .fe-box:hover {
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+   font-size: 1.5rem;
 }
 
 
-#skills .skills-items:hover{
-    transform: scale(1.1);
+#skills .fe-box img {
+    width: 100px;
+    margin-bottom: 10px;
 }
+
+#skills .fe-box h6 {
+    display: inline-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: rgb(20, 220, 20);;
+    font-size: 1rem;
+    
+   
+
+}
+
+.section-p1 {
+    padding: 50px 10px;
+}
+
+.fe-box progress {
+    
+    border: 1px solid #ccc;
+}
+
+
+  
+
 
 /* End Skills Section */
 
@@ -905,6 +893,8 @@ p{
     /* End About Section */
 
     /* Skills Section */
+
+
     #skills .skills-bottom .skills-items{
         flex-basis: 45%;
         margin: 2.5%;
