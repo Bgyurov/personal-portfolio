@@ -1,3 +1,3 @@
-https://gyurovportfolio.netlify.app/
+https://gyurov.netlify.app/
 
 
