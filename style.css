@@ -61,7 +61,9 @@ p{
 .section-title span{
     color: rgb(20, 220, 20);;
 }
-
+.checked {
+    color: orange;
+  }
 
 .cta{
     display: inline-block;
@@ -629,6 +631,9 @@ p{
     
    
 
+}
+.active{
+    color: rgb(20, 220, 20);
 }
 
 .section-p1 {
