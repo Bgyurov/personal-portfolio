@@ -658,7 +658,7 @@ p{
 }
 
 .project-item-link:hover {
-    transform: translateY(-5px); 
+    transform: translateY(-10px); 
 }
 .project-img .overlay {
     position: absolute;
@@ -707,20 +707,17 @@ p{
     flex-direction: column;
 }
 
-
-#projects .project-item{
+#projects .project-item {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 80%;
-    margin: 20px auto;
+   
     overflow: hidden;
     border-radius: 10px;
 }
 
-
-#projects .project-info{
+#projects .project-info {
     padding: 30px;
     flex-basis: 50%;
     background-color: white;
@@ -733,32 +730,30 @@ p{
     color: white;
 }
 
-
-#projects .project-info h1{
+#projects .project-info h1 {
+   
     font-size: 4rem;
     font-weight: 500;
 }
 
-
-#projects .project-info h2{
+#projects .project-info h2 {
     font-size: 1.8rem;
     font-weight: 500;
     margin-top: 10px;
 }
 
-
-#projects .project-info p{
+#projects .project-info p {
     color: white;
     text-align: center;
 }
 
-
-#projects .project-img{
+#projects .project-img {
     flex-basis: 50%;
     height: 300px;
     overflow: hidden;
     position: relative;
 }
+
 
 
 #projects .project-img::after{
@@ -779,7 +774,7 @@ p{
 
 
 #projects .project-item:hover .project-img img{
-    transform: scale(1.1);
+    transform: scale(5.1);
 }
 
 /* End Projects Section */
@@ -1040,7 +1035,7 @@ p{
 
     #projects .project-item{
         height: 400px;
-        margin: 0;
+        margin: 5px;
         width: 100%;
         border-radius: 0;
     }
