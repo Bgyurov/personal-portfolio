@@ -334,6 +334,23 @@ p{
     z-index: -1;
 }
 
+#about .about-img{
+    height: 120%;
+    width: 100%;
+    position: relative;
+    border: 10px solid white;
+}
+#about  .about-img::after{
+    content: '';
+    position: absolute;
+    left: -33px;
+    top: 19px;
+    height: 98%;
+    width: 98%;
+    border: 7px solid rgb(146, 14, 141);
+    z-index: -1;
+}
+
 
 /* Keyframes */
 

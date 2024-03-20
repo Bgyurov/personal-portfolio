@@ -719,7 +719,7 @@ p{
 
 #projects .project-info {
     padding: 30px;
-    flex-basis: 50%;
+    flex-basis: 80%;
     background-color: white;
     height: 100%;
     display: flex;
