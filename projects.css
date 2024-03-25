@@ -334,7 +334,7 @@ p{
     z-index: -1;
 }
 
-#about .about-img{
+#about  .about-img{
     height: 120%;
     width: 100%;
     position: relative;
@@ -360,10 +360,10 @@ p{
     display: none;
 }
 
-img {
+/* img {
     width: 100%;
     height: auto;
-}
+} */
 * Footer */
 
 #footer{
