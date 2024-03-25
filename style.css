@@ -1006,8 +1006,11 @@ p{
         padding: 0;
     }
   /*Education Section */
+
+
  
 
+   
    
 }
 
@@ -1098,22 +1101,10 @@ p{
     /* End Header */
 
     /* Skills Section */
-    #skills .skills-bottom .skills-items{
-        flex-basis: 22%;
-        margin: 1.5%;
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-    #skills .skills-bottom .skills-items p{
-        padding: 10px;
-    }
-
-    #skills .skills-top{
-        max-width: 900px;
-        margin: 0 auto;
-    }
+ 
     /* End Skills Section */
+ 
+     
 
 }
 
