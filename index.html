@@ -504,10 +504,10 @@
     <!-- Contact Me --->
     <section id="contact">
         <div class="inner">
-            <form class="form">
+            <form class="form" onsubmit="sendMail(event)">
                 <h1>Get <span>in</span> touch</h1>
                 <h2>Contact <span>me</span></h2>
-
+    
                 <div>
                     <input type="text" class="name" id="name" placeholder="Your name">
                     <p class="nameMsg"></p>
@@ -517,14 +517,11 @@
                     <p class="emilMsg"></p>
                 </div>
                 <div>
-                    <textarea type="text" class="message" id="message" rows="4" cols="50"
-                        placeholder="Enter your message here"></textarea>
-
+                    <textarea type="text" class="message" id="message" rows="4" cols="50" placeholder="Enter your message here"></textarea>
                 </div>
-                <button class="sub" onclick="sendMail()"> Submit</button>
+                <button type="submit" class="sub">Submit</button>
             </form>
         </div>
-
     </section>
 
 
