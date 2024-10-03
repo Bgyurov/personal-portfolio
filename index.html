@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
-    <title>Gyurov </title>
+    <title>Gyurov | Personal Portfolio</title>
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
@@ -24,6 +24,22 @@
     (function () {
         emailjs.init("9VPEpcfaT4jg11S3U");
     })();
+</script>
+
+<script>
+   let headings = [
+  "Boyan Gyurov - Junior Front-End Developer",
+  "Ready to Collaborate? Contact Me!",
+  "Loaction: Sofia,Bulgaria",
+  "Skills: JavaScript, React, Express.js",
+
+];
+
+let index = 0;
+setInterval(() => {
+  document.title = headings[index];
+  index = (index + 1) % headings.length;
+}, 8000);
 </script>
 
 </head>
@@ -110,53 +126,101 @@
             </div>
             <div class="education-bottom">
 
+                <!-- Sciant internship -->
                 <div class="education-items">
                     <div class="icon">
-                        <img src="./images/web.png" alt="">
+                        <img src="./images/programming-flag.png" alt="">
                     </div>
-                    <h1>Technical University - Sofia</h1>
-                    <h1>(09/2023 - Present)</h1>
-                    <h2>Specialization: Computer Software Engineer (CSE)</h2>
-
-                </div>
-                <div class="education-items">
-                    <div class="icon">
-                        <img src="./images/laptop.png" alt="">
-                    </div>
-                    <h1>Software University</h1>
-                    <h1>November 2021</h1>
-                    <h2>Module: Programing Basics Java</h2>
+                    <h1>Sciant (part of Sirma Group)</h1>
+                    <h1>Summer 2024</h1>
+                    <h2>Module: Internship ReactJS</h2>
                     <ul class="subjects">
-                        <li>First Steps in Coding
-                        </li>
-                        <li>Conditional Statements</li>
-                        <li>Complex Conditional Statements</li>
-                        <li>Loops</li>
-                        <li>Nested Loops</li>
+                        <li>Soft skills</li>
+                        <li>Team work </li>
+                        <li>Good practices with React </li>
 
-                        <a href="https://softuni.bg/certificates/details/121476/9d1c607b" target="_blank"
-                            class="certificate">Certificate </a>
+                        <li>Fundamentals in TS</li>
                     </ul>
-
                 </div>
+    
+                <!-- ReactJS Module (October 2023) -->
                 <div class="education-items">
                     <div class="icon">
-                        <img src="./images/laptop.png" alt="">
+                        <img src="./images/programming-flag.png" alt="">
                     </div>
                     <h1>Software University</h1>
-                    <h1>January 2022</h1>
-                    <h2>Module: Programing Fundamentals JavaScript</h2>
+                    <h1>October 2023</h1>
+                    <h2>Module: ReactJS</h2>
                     <ul class="subjects">
-                        <li>Data Types and Variables</li>
-                        <li>Arrays Advanced</li>
-                        <li>Objects and Classes</li>
-                        <li>Text Processing</li>
-                        <li>Problem Solving</li>
-                        <li>Regular Expressions</li>
-                        <a href="https://softuni.bg/certificates/details/129335/5d3dade9" target="_blank"
+                        <li>JSX</li>
+                        <li>Components</li>
+                        <li>Forms</li>
+                        <li>Routing</li>
+                        <li>React Hooks and authentication</li>
+                        <a href="https://softuni.bg/certificates/details/197741/9d0b8df3" target="_blank"
                             class="certificate">Certificate </a>
                     </ul>
                 </div>
+    
+                <!-- JS Back-End Module (September 2023) -->
+                <div class="education-items">
+                    <div class="icon">
+                        <img src="./images/programming-flag.png" alt="">
+                    </div>
+                    <h1>Software University</h1>
+                    <h1>September 2023</h1>
+                    <h2>Module: JS Back-End</h2>
+                    <ul class="subjects">
+                        <li>Node.js</li>
+                        <li>ExpressJS and Templating</li>
+                        <li>MongoDB and Mongoose</li>
+                        <li>Handlebars view engine</li>
+                        <li>Session and authentication</li>
+                        <li>Validation and Error Handling</li>
+                        <a href="https://softuni.bg/certificates/details/190491/ddce22fb" target="_blank"
+                            class="certificate">Certificate </a>
+                    </ul>
+                </div>
+    
+                <!-- JS Applications Module (October 2022) -->
+                <div class="education-items">
+                    <div class="icon">
+                        <img src="./images/programming-flag.png" alt="">
+                    </div>
+                    <h1>Software University</h1>
+                    <h1>October 2022</h1>
+                    <h2>Module: JS Applications</h2>
+                    <ul class="subjects">
+                        <li>HTTP and REST Services</li>
+                        <li>Asynchronous Programming (Promises, Async/Await)</li>
+                        <li>Single Page Applications(SPA)</li>
+                        <li>Client Side Rendering and Routing</li>
+                        <a href="https://softuni.bg/certificates/details/149742/7b90f82b" target="_blank"
+                            class="certificate">Certificate </a>
+                    </ul>
+                </div>
+    
+                <!-- JS Advanced Module (September 2022) -->
+                <div class="education-items">
+                    <div class="icon">
+                        <img src="./images/programming-flag.png" alt="">
+                    </div>
+                    <h1>Software University</h1>
+                    <h1>September 2022</h1>
+                    <h2>Module: JS Advanced</h2>
+                    <ul class="subjects">
+                        <li>Arrays and Nested Arrays</li>
+                        <li>Objects and Composition</li>
+                        <li>DOM Introduction</li>
+                        <li>DOM Manipulations and Events</li>
+                        <li>Advanced Functions</li>
+                        <li>Unit Testing and Error Handling</li>
+                        <a href="https://softuni.bg/certificates/details/145331/7c375b4e" target="_blank"
+                            class="certificate">Certificate </a>
+                    </ul>
+                </div>
+    
+                <!-- MS SQL Module (May 2022) -->
                 <div class="education-items">
                     <div class="icon">
                         <img src="./images/programming-flag.png" alt="">
@@ -175,89 +239,60 @@
                             class="certificate">Certificate </a>
                     </ul>
                 </div>
-
+    
+                <!-- JavaScript Programming Fundamentals (January 2022) -->
                 <div class="education-items">
                     <div class="icon">
-                        <img src="./images/programming-flag.png" alt="">
+                        <img src="./images/laptop.png" alt="">
                     </div>
                     <h1>Software University</h1>
-                    <h1>September 2022</h1>
-                    <h2>Module: JS Advanced</h2>
+                    <h1>January 2022</h1>
+                    <h2>Module: Programing Fundamentals JavaScript</h2>
                     <ul class="subjects">
-                        <li>Arrays and Nested Arrays</li>
-                        <li>Objects and Composition</li>
-                        <li>DOM Introduction</li>
-                        <li>DOM Manipulations and Events</li>
-                        <li>Advanced Functions</li>
-                        <li>Unit Testing and Error Handling</li>
-                        <a href="https://softuni.bg/certificates/details/145331/7c375b4e" target="_blank"
+                        <li>Data Types and Variables</li>
+                        <li>Arrays Advanced</li>
+                        <li>Objects and Classes</li>
+                        <li>Text Processing</li>
+                        <li>Problem Solving</li>
+                        <li>Regular Expressions</li>
+                        <a href="https://softuni.bg/certificates/details/129335/5d3dade9" target="_blank"
                             class="certificate">Certificate </a>
                     </ul>
-
-
                 </div>
+    
+                <!-- Java Programming Basics (November 2021) -->
                 <div class="education-items">
                     <div class="icon">
-                        <img src="./images/programming-flag.png" alt="">
+                        <img src="./images/laptop.png" alt="">
                     </div>
                     <h1>Software University</h1>
-                    <h1>October 2022</h1>
-                    <h2>Module: JS Applications</h2>
+                    <h1>November 2021</h1>
+                    <h2>Module: Programing Basics Java</h2>
                     <ul class="subjects">
-                        <li>HTTP and REST Services</li>
-                        <li>Asynchronous Programming (Promises, Async/Await)</li>
-                        <li>Single Page Applications(SPA)</li>
-                        <li>Client Side Rendering and Routing</li>
-                        <a href="https://softuni.bg/certificates/details/149742/7b90f82b" target="_blank"
+                        <li>First Steps in Coding</li>
+                        <li>Conditional Statements</li>
+                        <li>Complex Conditional Statements</li>
+                        <li>Loops</li>
+                        <li>Nested Loops</li>
+                        <a href="https://softuni.bg/certificates/details/121476/9d1c607b" target="_blank"
                             class="certificate">Certificate </a>
                     </ul>
-
                 </div>
-
-
+    
+                <!-- Technical University - Sofia (09/2023 - Present) -->
                 <div class="education-items">
                     <div class="icon">
-                        <img src="./images/programming-flag.png" alt="">
+                        <img src="./images/web.png" alt="">
                     </div>
-                    <h1>Software University</h1>
-                    <h1>September 2023</h1>
-                    <h2>Module: JS Back-End</h2>
-                    <ul class="subjects">
-                        <li>Node.js</li>
-                        <li>ExpressJS and Templating</li>
-                        <li>MongoDB and Mongoose</li>
-                        <li>Handlebars view engine</li>
-                        <li>Session and authentication</li>
-                        <li>Validation and Error Handling</li>
-                        <a href="https://softuni.bg/certificates/details/190491/ddce22fb" target="_blank"
-                            class="certificate">Certificate </a>
-                    </ul>
-
-
+                    <h1>Technical University - Sofia</h1>
+                    <h1>(09/2023 - Present)</h1>
+                    <h2>Specialization: Computer Software Engineer (CSE)</h2>
                 </div>
-                <div class="education-items">
-                    <div class="icon">
-                        <img src="./images/programming-flag.png" alt="">
-                    </div>
-                    <h1>Software University</h1>
-                    <h1>October 2023</h1>
-                    <h2>Module: ReactJS</h2>
-                    <ul class="subjects">
-                        <li>JSX</li>
-                        <li>Components</li>
-                        <li>Forms</li>
-                        <li>Routing</li>
-                        <li>React Hooks and authentication</li>
-
-                        <a href="https://softuni.bg/certificates/details/197741/9d0b8df3" target="_blank"
-                            class="certificate">Certificate </a>
-                    </ul>
-
-
-                </div>
-
+    
             </div>
+        </div>
     </section>
+    
 
     <!-- End Education Section -->
 
