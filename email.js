@@ -7,7 +7,7 @@ function sendMail(event) {
       message: document.getElementById("message").value,
   };
 
-  const serviceID = "service_4tgf33r";
+  const serviceID = "service_rallp1s";
   const templateID = "template_gpb2o1o"; 
 
   emailjs.send(serviceID, templateID, params)
@@ -20,3 +20,4 @@ function sendMail(event) {
   })
   .catch(err => console.log(err));
 }
+
