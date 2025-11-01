@@ -8,7 +8,7 @@ function sendMail(event) {
   };
 
   const serviceID = "service_rallp1s";
-  const templateID = "template_gpb2o1o"; 
+  const templateID = "template_z95a9nj"; 
 
   emailjs.send(serviceID, templateID, params)
   .then(res => {
@@ -20,4 +20,5 @@ function sendMail(event) {
   })
   .catch(err => console.log(err));
 }
+
 
