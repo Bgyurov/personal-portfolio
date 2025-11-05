@@ -589,13 +589,16 @@ setInterval(() => {
 
             </div>
 
-            <p>Copyright Ⓒ 2024 Gyurov. All Rights Reserved.</p>
+<p>Copyright Ⓒ <span id="year"></span> Gyurov. All Rights Reserved.</p>
 
         </div>
 
     </section>
     <!-- End Footer -->
 
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
     <script src="./app.js"></script>
     <script src="./email.js" defer></script>
 </body>
